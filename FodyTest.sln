@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		FodyWeavers.xml = FodyWeavers.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{97716056-6ADE-4D63-8D22-5A162C8CDA29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{2B52674F-5B0A-46FB-892E-ADCA12D39423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B52674F-5B0A-46FB-892E-ADCA12D39423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B52674F-5B0A-46FB-892E-ADCA12D39423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97716056-6ADE-4D63-8D22-5A162C8CDA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97716056-6ADE-4D63-8D22-5A162C8CDA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97716056-6ADE-4D63-8D22-5A162C8CDA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97716056-6ADE-4D63-8D22-5A162C8CDA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

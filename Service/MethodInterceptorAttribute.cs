@@ -1,4 +1,5 @@
 ﻿using MethodDecorator.Fody.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace Service
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Constructor)]
     public class MethodInterceptorAttribute : Attribute, IMethodDecorator
     {
+  
         public void Init(object instance, MethodBase method, object[] args)
         {
             Console.WriteLine($"Preparing to call: {method.Name}");
